@@ -1,8 +1,8 @@
-class Rockets {
+class Rocket {
     name: string;
     totalCapacityKg: number;
-    cargoItems: array = [];
-    astronauts: array = [];
+    cargoItems: string[];
+    astronauts: string[];
   
     constructor(name: string, totalCapacityKg: number) {
       this.name = name;
